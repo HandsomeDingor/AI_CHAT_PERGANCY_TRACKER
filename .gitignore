@@ -1,0 +1,55 @@
+# macOS
+.DS_Store
+
+# Python backend
+backend/venv/
+backend/**/__pycache__/
+backend/**/*.pyc
+
+# Flutter build artifacts
+frontend/pregnancy_tracker/build/
+frontend/pregnancy_tracker/.dart_tool/
+
+# Firebase local secrets (若未来接入)
+frontend/pregnancy_tracker/lib/firebase_options.dart
+frontend/pregnancy_tracker/android/app/google-services.json
+frontend/pregnancy_tracker/ios/Runner/GoogleService-Info.plist
+
+# secret key
+backend/.env
+venv/
+
+# Sensitive keys
+/backend/firebase-key.json
+
+# Python
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/dist/
+backend/build/
+backend/*.egg-info/
+backend/pip-wheel-metadata/
+backend/*.sqlite3
+backend/*.db
+
+# Virtual envs (common names)
+.venv/
+env/
+venv/
+
+# IDEs / editors
+.vscode/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Misc
+.coverage
+.cache/
+*.log
+*.pem
+*.key
